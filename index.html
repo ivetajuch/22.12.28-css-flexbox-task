@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+
+    <div class="container container-1">
+        <div class="child green"></div>
+        <div class="child red"></div>
+        <div class="child blue"></div>
+        <div class="child pink"></div>
+        <div class="child orange"></div>
+        <div class="child purple"></div>
+    </div>
+
+     <div class="container container-2">  
+        <div class="child-1 green"></div>
+        <div class="child-2 red"></div>
+        <div class="child-3 blue"></div>
+        <div class="child-4 pink"></div>
+        <div class="child-5 orange"></div>
+        <div class="child-6 purple"></div>
+     </div>
+
+    <div class="container container-3">
+        <div class="inner-container pink">
+            <div class="child green"></div>
+            <div class="child red"></div>
+            <div class="child blue"></div>
+        </div>
+        <div class="inner-container red">
+            <div class="child pink"></div>
+            <div class="child orange"></div>
+            <div class="child purple"></div>
+        </div>
+    </div>
+
+    <div class="container container-4">
+        <div class="inner-container-1 pink">
+            <div class="child-1 green"></div>
+            <div class="child-2 red"></div>
+            <div class="child-3 blue"></div>
+        </div>
+        <div class="inner-container-2 red">
+            <div class="child-1 pink"></div>
+            <div class="child-2 orange"></div>
+            <div class="child-3 purple"></div>
+            <div class="child-4 green"></div>
+            <div class="child-5 pink"></div>
+        </div>
+        <div class="inner-container-3 magenta">
+            <div class="child-1 blue"></div>
+            <div class="child-2 orange"></div>
+            <div class="child-3 red"></div>
+        </div>
+    </div>
+
+    <div class="container container-5">
+        <div class="inner-container-1 pink">
+            <div class="child-1 green"></div>
+            <div class="child-2 red"></div>
+        </div>
+        <div class="inner-container-2 red">
+            <div class="child-1 pink"></div>
+            <div class="child-2 orange">
+                <div class="inner-child-1 blue"></div>
+                <div class="inner-child-2 magenta"></div>
+                <div class="inner-child-3 purple"></div>
+                <div class="inner-child-4 red"></div>
+            </div>
+            <div class="child-3 purple"></div>
+        </div>
+        <div class="inner-container-3 magenta">
+            <div class="child-1 blue"></div>
+            <div class="child-2 orange"></div>
+        </div>
+    </div>
+
+    <div class="container container-6">
+        <div class="inner-container-1 pink"></div>
+        <div class="inner-container-2 red">
+            <div class="child-1 green"></div>
+            <div class="child-2 orange"></div>
+            <div class="child-3 purple"></div>
+        </div>
+        <div class="inner-container-3 magenta"></div>
+        <div class="inner-container-4 blue"></div>
+    </div>
+
+    <div class="container container-7">
+        <div class="inner-container-1 pink">
+            <div class="child-1 green"></div>
+            <div class="child-2 red"></div>
+            <div class="child-3 blue"></div>
+        </div>
+        <div class="inner-container-2 red">
+            <div class="child-1 pink"></div>
+            <div class="child-2 orange"></div>
+            <div class="child-3 purple"></div>
+        </div>
+    </div>
+
+    <div class="container container-8">
+        <div class="inner-container-1 pink"></div>
+        <div class="inner-container-2 red">
+            <div class="child-1 green"></div>
+            <div class="child-2 orange"></div>
+        </div>
+        <div class="inner-container-3 magenta"></div>
+        <div class="inner-container-4 blue">
+            <div class="child-1 purple"></div>
+            <div class="child-2 blue"></div>
+        </div>
+    </div>
+
+    <div class="container container-9">
+        <div class="inner-container-1 pink">
+            <div class="child-1 purple"></div>
+            <div class="child-2 orange"></div>
+            <div class="child-3 pink"></div>
+        </div>
+        <div class="inner-container-2 green">
+            <div class="child-1 magenta"></div>
+            <div class="child-2 orange"></div>
+            <div class="child-3 pink"></div>
+            <div class="child-4 green"></div>
+        </div>
+        <div class="inner-container-3 red"></div>
+        <div class="inner-container-4 magenta">
+            <div class="child-1 purple"></div>
+            <div class="child-2 blue"></div>
+            <div class="child-3 magenta"></div>
+        </div>
+    </div>
+
+    <div class="container container-10">
+        <div class="inner-container-1 pink">
+            <div class="child-1 purple"></div>
+            <div class="child-2 orange"></div>
+            <div class="child-3 pink"></div>
+            <div class="child-4 blue"></div>
+        </div>
+        <div class="inner-container-2 pink">
+            <div class="child-1 green"></div>
+            <div class="child-2 magenta"></div>
+            <div class="child-3 orange"></div>
+            <div class="child-4 red"></div>
+        </div>
+        <div class="inner-container-3 pink">
+            <div class="child-1 blue"></div>
+            <div class="child-2 purple"></div>
+            <div class="child-3 orange"></div>
+            <div class="child-4 green"></div>
+        </div>
+    </div>
+
+    <div class="container container-11">
+        <div class="inner-container-1 pink"></div>
+        <div class="inner-container-2 blue"></div>
+        <div class="inner-container-3 orange"></div>
+        <div class="inner-container-4 green"></div>
+        <div class="inner-container-5 red"></div>
+        <div class="inner-container-6 purple"></div>
+    </div>
+
+    <div class="container container-12">
+        <div class="inner-container-1 purple"></div>
+        <div class="inner-container-2 blue"></div>
+        <div class="inner-container-3 orange"></div>
+        <div class="inner-container-4 green"></div>
+        <div class="inner-container-5 red"></div>
+      </div>
+
+
+      <div class="container container-13">
+        <div class="inner-container-1 purple"></div>
+        <div class="inner-container-2 blue"></div>
+        <div class="inner-container-3 orange"></div>
+        <div class="inner-container-4 green"></div>
+        <div class="inner-container-5 red"></div>
+      </div>
+
+      <div class="container container-14">
+        <div class="inner-container-1 purple">
+            <div class="child-1 green"></div>
+            <div class="child-2 blue"></div>
+            <div class="child-3 pink"></div>
+        </div>
+        <div class="inner-container-2 blue">
+            <div class="child-1 magenta"></div>
+            <div class="child-2 green"></div>
+            <div class="child-3 blue"></div>
+            <div class="child-4 pink"></div>
+        </div>
+        <div class="inner-container-3 orange">
+            <div class="child-1 magenta"></div>
+            <div class="child-2 green"></div>
+            <div class="child-3 blue"></div>
+            <div class="child-4 pink"></div>
+        </div>
+        <div class="inner-container-4 red"></div>
+      </div>
+
+      <div class="container container-15">
+        <div class="inner-container-1 purple">
+            <div class="child green"></div>
+            <div class="child blue"></div>
+            <div class="child pink"></div>
+        </div>
+        <div class="inner-container-2 blue">
+            <div class="child magenta"></div>
+            <div class="child orange"></div>
+            <div class="child red"></div>
+            <div class="child purple"></div>
+        </div>
+        <div class="inner-container-3 purple">
+            <div class="child green"></div>
+            <div class="child blue"></div>
+            <div class="child pink"></div>
+        </div>
+        <div class="inner-container-4 orange">
+            <div class="child magenta"></div>
+            <div class="child orange"></div>
+            <div class="child red"></div>
+            <div class="child purple"></div>
+        </div>
+      </div>
+
+      <div class="container container-16">
+        <div class="inner-container-1 purple"></div>
+        <div class="inner-container-2 red"></div>
+        <div class="inner-container-3 purple">
+            <div class="child-1 green"></div>
+            <div class="child-2 blue"></div>
+            <div class="child-3 pink"></div>
+        </div>
+        <div class="inner-container-4 orange">
+            <div class="child-1 magenta"></div>
+            <div class="child-2 orange"></div>
+            <div class="child-3 red"></div>
+       </div>
+      </div>
+
+      <div class="container container-17">
+        <div class="inner-container-1 purple"></div>
+        <div class="inner-container-2 purple">
+            <div class="child-1 green"></div>
+            <div class="child blue"></div>
+            <div class="child pink"></div>
+        </div>
+        <div class="inner-container-3 orange">
+            <div class="child-1 magenta"></div>
+            <div class="child orange"></div>
+            <div class="child red"></div>
+       </div>
+      </div>
+
+      <div class="container container-18">
+        <div class="inner-container-1 purple">
+            <div class="child green"></div>
+            <div class="child blue"></div>
+            <div class="child pink"></div>
+        </div>
+        <div class="inner-container-2 blue">
+            <div class="child-1 magenta"></div>
+            <div class="child-1 orange"></div>
+        </div>
+        <div class="inner-container-3 orange">
+            <div class="child green"></div>
+            <div class="child blue"></div>
+            <div class="child pink"></div>
+        </div>
+      </div>
+
+      <div class="container container-19">
+        <div class="inner-container-1 purple">
+            <div class="child-1 green"></div>
+            <div class="child-2 blue"></div>
+            <div class="child-2 pink">
+                <div class="inner-child orange"></div>
+                <div class="inner-child green"></div>
+                <div class="inner-child blue"></div>
+                <div class="inner-child red"></div>
+            </div>
+        </div>
+        <div class="inner-container-2 orange">
+            <div class="child-2 orange"></div>
+            <div class="child-2 blue">
+                <div class="inner-child pink"></div>
+                <div class="inner-child green"></div>
+                <div class="inner-child blue"></div>
+                <div class="inner-child red"></div>
+            </div>
+            <div class="child-2 magenta"></div>
+        </div>
+      </div>
+
+      <div class="container container-20">
+        <div class="inner-container purple"></div>
+        <div class="inner-container red"></div>
+        <div class="inner-container green"></div>
+        <div class="inner-container orange"></div>
+        <div class="inner-container blue"></div>
+        <div class="inner-container pink"></div>
+        <div class="inner-container magenta"></div>
+        <div class="inner-container purple"></div>
+        <div class="inner-container red"></div>
+        <div class="inner-container green"></div>
+        <div class="inner-container orange"></div>
+        <div class="inner-container blue"></div>        
+      </div>
+</div>
+</body>
+
+</html>
